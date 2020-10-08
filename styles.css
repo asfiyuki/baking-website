@@ -1,0 +1,195 @@
+.topnav {
+  background-color: rgba(0,0,0,0.4);
+  overflow: hidden;
+  min-width: 500px;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+a:hover{
+    color : dodgerblue;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg{
+  background-image: url("https://truffle-assets.imgix.net/14969695-kawaii_pastel_cake_l_still.jpg");
+
+  min-height: 700px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+    /*transform: translate(-50%, -50%);*/
+    font-size: 120px;
+    color: powderblue;
+    font-family: Impact, Charcoal, sans-serif;
+    text-shadow: 2px 2px 10px #000000;
+    /*min-width: 100px; */
+    margin: auto;
+  }
+
+
+.subintro {
+      /* margin-top: -110px; */
+      /* transform: translate(-50%, -50%); */
+      font-size: 30px;
+      color: white;
+      font-family: serif;
+      /* min-width: 500px; */
+      text-shadow: 2px 2px 10px #000000;
+      text-align: center;
+}
+
+.button{
+  position: absolute;
+  top:70%;
+  left: 46%;
+  background-color: rgba(0,0,0,1.0);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 12px 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: powderblue;
+  color : black;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #555;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0px;
+}
+
+.banner{
+  background-image: url("http://getwallpapers.com/wallpaper/full/8/2/f/294400.jpg");
+  min-height: 200px;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.bannertext{
+  color : white;
+  font-family: serif;
+  font-size: 50px;
+  padding-left: 20px;
+  text-shadow: 2px 2px 10px #000000;
+}
+
+table.center {
+
+  position: center;
+  table-layout: fixed;
+  justify-content: space-around;
+  display: flex;
+
+}
+
+/* content part */
+
+h1 {
+  font-family: sans-serif;
+}
+
+p{
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color : darkslategray;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 30px;
+  color: hotpink;
+  font-weight: 100px;
+  text-shadow: 0px 0px 8px #ffffff;
+}
+
+.videoTitle{
+  padding-left: 50px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  border-right: 0.5px solid black;
+  color: powderblue;
+}
+
+.OddVid {
+  width: 25%;
+  float: left;
+  padding: 50px;
+  margin: 0px, 0px, 0px, 50px;
+}
+
+.OddDesc {
+  width: 95%;
+  float: right;
+  padding: 30px;
+  padding-top: 10px;
+  border-top: 0.3px solid black;
+  margin: 10px 95px 0px 0px;
+  text-align: left;
+}
+
+.EvenDesc {
+  width: 95%;
+  float: left;
+  padding: 10px 10px 30px 50px;
+  border-top: 0.3px solid black;
+  margin: 20px 0px 0px 70px;
+  text-align: right;
+}
+
+.EvenVid {
+  width: 85%;
+  float: right;
+}
+
+.OddDesc , .EvenDesc {
+  font-weight: lighter;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://truffle-assets.imgix.net/14969695-kawaii_pastel_cake_l_still.jpg");
+  margin: 0px;
+
+  /* Set a specific height */
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videoContent{
+  background-image: url("https://wallpaperaccess.com/full/729437.jpg");
+  margin: 0px;
+}
